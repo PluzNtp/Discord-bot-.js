@@ -17,8 +17,8 @@ client.on('message', message =>{
          case 'status': ///input text 
             message.channel.send('🟢 online');///output
             break;
-         case 'ping':
-            message.reply('');
+         case 'ta':
+            message.reply('this is ta in 5 langauge| ta (eng) | ต๊ะ (ไทย)| 他 (chinese)|er (german)|il (french) ');
             break;
          case 'botโง่':
             message.channel.send('มึงอะโง่');
