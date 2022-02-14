@@ -27,9 +27,10 @@ client.on('message', message =>{
             message.channel.send('มึงอะโง่');
             break;
          case'help':
-             message.channel.send('')
+             message.channel.send('');
          default:
-            message.channel.send('invalid command use +help // วิธีการใช้ +help')
+            message.channel.send('invalid command use +help // วิธีการใช้ +help');
+            break;
      }
 });
 client.login(process.env.token);
