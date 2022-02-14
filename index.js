@@ -26,15 +26,10 @@ client.on('message', message =>{
          case 'โง่':
             message.channel.send('มึงอะโง่');
             break;
-         case 'info':
-             if(args[1] === 'version'){
-                  message.channel.send('Version 1.0.1');
-             }else{
-                  message.channel.send('invalid command')
-             }
-             break;
          case'help':
-             message.channel.send()
+             message.channel.send('')
+         default:
+            message.channel.send('invalid command use +help // วิธีการใช้ +help')
      }
 });
 client.login(process.env.token);
