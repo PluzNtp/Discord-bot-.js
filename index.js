@@ -26,10 +26,16 @@ client.on('message', message =>{
          case 'โง่':
             message.channel.send('มึงอะโง่');
             break;
-         case'help':
-             message.channel.send('');
          default:
             message.channel.send('invalid command use +help // วิธีการใช้ +help');
+            break;
+         case'help':///help
+            const embed = new Discord.MessageEmbed()
+            .setTitle('Help')
+            .addField('Basic Commands',basic)
+            .addField(music)
+            .setColor(0x46CDDA)
+            message.channel.send(embed);
             break;
      }
 });
