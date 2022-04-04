@@ -1,2 +1,3 @@
 # Discord-bot-.js
-#bot offline เปิดเพลงยังม่ได้
+#bot offline 
+#ใช้ Heroku เป็น host 
